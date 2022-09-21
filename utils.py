@@ -32,6 +32,19 @@ def clear_last_bit(N, K):
     return N
 
 
+def get_last_bit(N, K):
+    """Get last K bit(s) from number N"""
+
+    # Create a mask
+    mask = ~ (-1 << K + 1)
+
+    # Bitwise AND operation with
+    # the number and the mask
+    N = N & mask
+
+    return N
+
+
 def filter_bitwise(N, K):
     # Create a mask
     mask = 1 << K
