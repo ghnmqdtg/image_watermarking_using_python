@@ -8,3 +8,4 @@ TARGET_PIC = "target.jpg"
 ITER_FROM_LSB = True
 ENCODE_RANGE = 3
 PICTURE_SIZE = (600, 400)
+SAVE_IMG = True
