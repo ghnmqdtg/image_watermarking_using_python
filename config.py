@@ -1,6 +1,10 @@
+# FILE PATHS
 SRC_FOLDER = "./src"
 DEST_FOLDER = "./dest"
 WATERMARK_PIC = "watermark.jpg"
 TARGET_PIC = "target.jpg"
 
+# SETTINGS
+ITER_FROM_LSB = True
+ENCODE_RANGE = 3
 PICTURE_SIZE = (600, 400)
