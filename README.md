@@ -12,3 +12,10 @@ MacOS 12.6
 ```
 pip install -r requirements.txt
 ```
+
+## How to use it?
+1. Update the `config.py` if needed
+2. Run the `main.py`
+    ```
+    python main.py
+    ```

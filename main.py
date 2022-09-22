@@ -1,3 +1,10 @@
+# ----------------------------------------------------------------------------
+# Filename    : main.py
+# Created By  : Ting-Wei, Zhang (ghnmqdtg)
+# Created Date: 2022/09/21
+# version ='1.0'
+# ---------------------------------------------------------------------------
+import os
 import os
 import numpy as np
 from tqdm import tqdm
