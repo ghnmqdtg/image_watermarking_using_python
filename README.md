@@ -11,40 +11,40 @@ This side project is to implement basic steganography with images. Encode the fi
 ### Input Images
 <table class="col2" border="0">
  <tr>
-    <td><b style="font-size:16px">Target image</b></td>
-    <td><b style="font-size:16px">Watermark image</b></td>
+    <td style="width:50%;"><b style="font-size:16px">Target image</b></td>
+    <td style="width:50%;"><b style="font-size:16px">Watermark image</b></td>
  </tr>
  <tr>
-    <td><img src="./src/target.jpg"></img></td>
-    <td><img src="./src/watermark.jpg"></img></td>
+    <td style="width:50%;"><img src="./src/target.jpg"></img></td>
+    <td style="width:50%;"><img src="./src/watermark.jpg"></img></td>
  </tr>
 </table>
 
 ### Encoded Results
 <table class="col3" border="0">
  <tr>
-    <td><b style="font-size:16px">Encode to last 1 bit</b></td>
-    <td><b style="font-size:16px">Encode to last 2 bits</b></td>
-    <td><b style="font-size:16px">Encode to last 3 bits</b></td>
+    <td style="width:33%;"><b style="font-size:16px">Encode to last 1 bit</b></td>
+    <td style="width:33%;"><b style="font-size:16px">Encode to last 2 bits</b></td>
+    <td style="width:33%;"><b style="font-size:16px">Encode to last 3 bits</b></td>
  </tr>
  <tr>
-    <td><img src="./dest/encode_last_1_bits.jpg"></img></td>
-    <td><img src="./dest/encode_last_2_bits.jpg"></img></td>
-    <td><img src="./dest/encode_last_3_bits.jpg"></img></td>
+    <td style="width:33%;"><img src="./dest/encode_last_1_bits.jpg"></img></td>
+    <td style="width:33%;"><img src="./dest/encode_last_2_bits.jpg"></img></td>
+    <td style="width:33%;"><img src="./dest/encode_last_3_bits.jpg"></img></td>
  </tr>
 </table>
 
 ### Decoded watermark
 <table class="col3" border="0">
  <tr>
-    <td><b style="font-size:16px">Decode from last 1 bit</b></td>
-    <td><b style="font-size:16px">Decode from last 2 bits</b></td>
-    <td><b style="font-size:16px">Decode from last 3 bits</b></td>
+    <td style="width:33%;"><b style="font-size:16px">Decode from last 1 bit</b></td>
+    <td style="width:33%;"><b style="font-size:16px">Decode from last 2 bits</b></td>
+    <td style="width:33%;"><b style="font-size:16px">Decode from last 3 bits</b></td>
  </tr>
  <tr>
-    <td><img src="./dest/decode_last_1_bits.jpg"></img></td>
-    <td><img src="./dest/decode_last_2_bits.jpg"></img></td>
-    <td><img src="./dest/decode_last_3_bits.jpg"></img></td>
+    <td style="width:33%;"><img src="./dest/decode_last_1_bits.jpg"></img></td>
+    <td style="width:33%;"><img src="./dest/decode_last_2_bits.jpg"></img></td>
+    <td style="width:33%;"><img src="./dest/decode_last_3_bits.jpg"></img></td>
  </tr>
 </table>
 
@@ -68,21 +68,3 @@ MacOS 12.6
     ```shell
     python main.py
     ```
-
-<style>
-
-.col2 td {
-    max-width:50%;
-    width:50%;
-}
-
-.col3 td {
-    max-width:33%;
-    width:33%;
-}
-
-table {
-    width:100%;
-}
-
-</style>
